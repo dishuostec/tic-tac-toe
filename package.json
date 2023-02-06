@@ -1,0 +1,10 @@
+{
+	"name": "tic-tac-toe",
+	"author": "dishuostec",
+	"private": true,
+	"scripts": {
+		"build": "pnpm --filter @tic-tac-toe/* run build",
+		"server": "pnpm --filter @tic-tac-toe/server start",
+		"client": "pnpm --filter @tic-tac-toe/client serve"
+	}
+}
